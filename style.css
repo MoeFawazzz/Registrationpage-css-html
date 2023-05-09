@@ -1,0 +1,165 @@
+body{
+    background-color:#8de2df;
+}
+#first-div{
+    
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #86fbe0;
+    height: 200px;
+    width: 944px;
+    height: 944px;
+    border-radius: 13px;
+}
+#second-div{
+    width: 472px;
+    height: 944px;
+    float: right;
+    background-color:#32425b;
+}
+#logo{
+    width: 311px;
+    height: 311px;
+    margin-left: 95px;
+    margin-top: 321px;
+}
+#register{
+text-align: center;
+color: white;
+font-family: "Arial", "Helvetica", sans-serif;
+letter-spacing: 5px;
+}
+#free{
+    text-align: center;
+    color: #27a374;
+    font-family: "Arial", "Helvetica", sans-serif;
+    letter-spacing: 2px;
+}
+
+#texts{
+    margin-top: 58px;
+}
+ul{
+    list-style: none;
+}
+.list-text{
+    color: white;
+    font-family: "Arial", "Helvetica", sans-serif;
+    font-size: 11px;
+    letter-spacing: 4px;
+}
+.list-input{
+    width: 353px;
+    height: 34px;
+    background-color:#32425b;
+    border: 1px solid #4c5e74;
+    outline: none;
+
+}
+::placeholder {
+letter-spacing: 3px;
+text-indent: 14px;
+  }
+  
+#list{
+
+    margin-top: 42px;
+}
+
+
+#li-checkbox{
+    margin-top: 43px;
+}
+#mycheckbox{
+    appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  outline: none;
+  
+  width: 28px;
+  height: 28px;
+  border: 2px solid #4c5e74;
+  border-radius: 2px;
+  background-color: #32425b;
+
+}
+#checkbox-div{
+    display: flex;
+    flex-direction: row;
+
+}
+#p-box{
+    margin-left: 4px;
+    color: white;
+    font-family: "Arial", "Helvetica", sans-serif;
+    font-size: 7px;
+    letter-spacing: 1px;
+}
+
+#btn-div{
+    margin-left: 111px;
+    margin-top: 123px;
+}
+
+#create-btn{
+color: white;
+font-family: "Arial", "Helvetica", sans-serif;
+letter-spacing: 4px;
+background-color: #1ed5b9;
+border: none;
+width: 275px;
+height: 34px;
+
+}
+#link-div{
+    margin-left: 189px;
+    margin-top: 15px;
+
+}
+a{
+    text-decoration: none;
+    color: #607181;
+    font-family: "Arial", "Helvetica", sans-serif;
+    letter-spacing: 2px;
+    font-size: 9px;
+    margin-bottom: 35px;
+}
+hr{
+    border-color: #607181;
+    width: 134px;
+    
+    
+}
+@media only screen and (max-width: 768px) {
+    
+    
+    #first-div {
+      width: 100%;
+      height: auto;
+    }
+  
+    #second-div {
+      width: 100%;
+      float: none;
+    }
+  
+    #logo {
+      margin: 0 auto;
+    }
+  
+    .list-input {
+      width: 100%;
+    }
+  
+    #btn-div {
+      margin-left: 0;
+      text-align: center;
+    }
+  
+    #link-div {
+      margin-left: 0;
+      text-align: center;
+    }
+  }
+  
+  
